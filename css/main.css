@@ -11,7 +11,7 @@ html body {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: #000063;
+    background-color: #010150;
 }
 
 .navbar-li {
@@ -26,25 +26,23 @@ html body {
     text-decoration: none;
 }
 
-.navbar-li:hover:not(.active){
-    background-color: rgb(29, 29, 71);
+.navbar-li:hover:not(.active) {
+    background-color: #1d1d47;
 }
 
-.active{
-    background-color: #6746c3;
+.active {
+    background-color: #6406b1;
+}
+
+h3 {
+    margin: 15px 0px;
+    color: #010150;
 }
 
 .header-container {
-    background-color: rgb(29, 29, 71);
     color: whitesmoke;
+    background-color: #1d1d47;
     padding-bottom: 50px;
-}
-
-.title-hello-h3 {
-    margin-top: 0px;
-    font-family: serif;
-    padding-left: 50px;
-    padding-top: 50px;
 }
 
 h1 {
@@ -59,7 +57,7 @@ h1 {
 }
 
 h1:hover {
-    background-color: rgb(41, 6, 73);
+    background-color: #010150;
 }
 
 .image-gallery {
@@ -88,14 +86,18 @@ img:hover {
     border-top-right-radius: 20px;
 }
 
-h3 {
-    margin: 15px 0px;
+.title-h3 {
+    margin-top: 0px;
+    font-family: serif;
+    padding-left: 50px;
+    padding-top: 50px;
+    color: whitesmoke;
 }
 
 hr {
     width: 50px;
-    margin-left: 15px;
-    text-align: left;
+    margin-left: 0px;
+    border: solid #010150 1px;
 }
 
 .personal-background {
@@ -105,7 +107,7 @@ hr {
 }
 
 span {
-    color: rgb(100, 6, 177);
+    color: #6406b1;
 }
 
 .contact-container {
@@ -115,17 +117,17 @@ span {
     margin: 5px;
     padding: 5px;
     border: solid;
-    border-color: rgb(41, 6, 73);
+    border-color: #010150;
     border-radius: 12px;
 }
 
 a {
-    color: rgb(100, 6, 177);
+    color: #6406b1;
     margin: 3px;
 }
 
 button {
-    padding: 11px 20px;
+    padding: 11px 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -138,12 +140,12 @@ button {
 
 .go-top-page-btn {
     margin: 10px 15px;
-    background-color: rgb(29, 29, 71);
+    background-color: #1d1d47;
     color: whitesmoke;
-    border-color: rgb(29, 29, 71);
+    border-color: #1d1d47;
 }
 
 .go-top-page-btn:hover {
     background-color: whitesmoke;
-    color: rgb(29, 29, 71);
+    color: #1d1d47;
 }
