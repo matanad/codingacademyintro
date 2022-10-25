@@ -1,0 +1,78 @@
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-container {
+    background-color: #0064b7;
+}
+
+.h1-border {
+    margin-bottom: 50px;
+}
+
+.h1-border:hover {
+    background-color: #004ba0;
+}
+
+.ball {
+    background-color: #0091ea;
+    height: 110px;
+    width: 110px;
+    padding: 30px;
+    border: 5px #0091ea solid;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    transition-duration: 0.2s;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.ball:hover {
+    background-color: whitesmoke;
+    color: #0091ea;
+}
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.func-btn {
+    background-color: #63a4ff;
+    border-color: #63a4ff;
+    color: whitesmoke;
+    padding: 8px 16px;
+    margin: 10px 5px;
+    font-size: 18px;
+}
+
+.func-btn:hover {
+    background-color: whitesmoke;
+    color: #63a4ff;
+}
+
+.title-h3 {
+    padding-top: 5px;
+}
+
+.navbar {
+    background-color: #004ba0;
+}
+
+.navbar-li:hover:not(.active) {
+    background-color: #0064b7;
+}
+
+.active {
+    background-color: #63a4ff;
+}
+
+h5 {
+    margin: 10px 0px;
+}

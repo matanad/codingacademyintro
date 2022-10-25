@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/exercise.css">
+</head>
+
+<body>
+    <ul class="navbar">
+        <li class="navbar-li"><a class="navbar-a" href="index.html">Home</a></li>
+        <li class="navbar-li active"><a class="navbar-a" href="exercise.html">Exercise</a></li>
+        <li class="navbar-li"><a class="navbar-a" href=#contact>Contact</a></li>
+        <li class="navbar-li"><a class="navbar-a" href=#about>About</a></li>
+    </ul>
+
+    <div class="header-container">
+        <h3 class="title-h3"><i>by:</i></h3>
+        <div class="h1-border">
+            <h1>Matan Adi</h1>
+        </div>
+    </div>
+    <div class="content-container">
+        <h2>Day 4</h2>
+        <hr>
+        <div class="ball">I am a ball</div>
+        <div class="btn-container">
+            <button class="func-btn" onclick="changeTextColor()">Change Text Color</button>
+            <button class="func-btn" onclick="changeTextSize()">Change Text Size</button>
+            <button class="shape-btn func-btn" onclick="toggleBallShape()" class="ball-shape-btn">round</button>
+            <button class="func-btn" onclick="moveDown()">Move Down</button>
+
+        </div>
+        <form>
+            <h2>Day 5</h2>
+            <hr><br>
+            <h5>Print Mult</h5>
+            <hr>
+            <label for="firstNum secondNum">First Number:</label><br>
+            <input type="number" id="firstNum" class="firstNum" min="0" value="0"><br>
+            <label for="firstNum secondNum">Second Number:</label><br>
+            <input type="number" id="secondNum" class="second-num" min="0" value="0">
+        </form>
+        <button class="func-btn" onclick="printMult()">Print Mult</button>
+
+
+    </div>
+
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/day4.js"></script>
+    <script src="js/day5.js"></script>
+</body>
+
+</html>

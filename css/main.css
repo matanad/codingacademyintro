@@ -54,14 +54,15 @@ h1 {
 
 }
 
-.h1-border{
+.h1-border {
     border: solid whitesmoke;
     padding: 0px;
     margin: 0px 50px;
 }
 
-h1:hover {
+.h1-border:hover {
     background-color: #010150;
+    box-shadow: 0 2px 4px 0 whitesmoke, 0 3px 10px 0 gray;
 }
 
 .image-gallery {
