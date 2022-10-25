@@ -48,12 +48,16 @@ h3 {
 h1 {
     text-align: left;
     padding: 20px;
-    border: solid;
-    border-color: whitesmoke;
     transition-duration: 0.4s;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0px 0px;
+    animation-delay: 1s;
 
+}
+
+.h1-border{
+    border: solid whitesmoke;
+    padding: 0px;
+    margin: 0px 50px;
 }
 
 h1:hover {
@@ -78,7 +82,7 @@ img:hover {
     height: 500px;
 }
 
-.bottom-container {
+.content-container {
     padding: 15px;
     margin-top: -50px;
     background-color: whitesmoke;
@@ -132,7 +136,6 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
-    ;
     transition-duration: 0.4s;
     cursor: pointer;
     border: solid;

@@ -10,7 +10,7 @@ function init() {
     }
 
     if (btnShape === undefined) {
-        btnShape = document.querySelector('.ball-shape-btn')
+        btnShape = document.querySelector('.shape-btn')
     }
 }
 
