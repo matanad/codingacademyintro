@@ -97,11 +97,11 @@ a {
 }
 
 button {
-    padding: 1rem 1.5rem;
+    padding: 11px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 30px;;
     transition-duration: 0.4s;
     cursor: pointer;
     border: solid;
