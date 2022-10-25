@@ -1,9 +1,37 @@
-html, body {
+html body {
     width: 100%;
     height: 100%;
     background-color: whitesmoke;
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #000063;
+}
+
+.navbar-li {
+    float: left;
+}
+
+.navbar-li .navbar-a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-li:hover:not(.active){
+    background-color: rgb(29, 29, 71);
+}
+
+.active{
+    background-color: #6746c3;
 }
 
 .header-container {
@@ -13,6 +41,7 @@ html, body {
 }
 
 .title-hello-h3 {
+    margin-top: 0px;
     font-family: serif;
     padding-left: 50px;
     padding-top: 50px;
@@ -26,7 +55,7 @@ h1 {
     transition-duration: 0.4s;
     margin-left: 50px;
     margin-right: 50px;
-    
+
 }
 
 h1:hover {
@@ -60,8 +89,7 @@ img:hover {
 }
 
 h3 {
-    margin-left: 15px;
-    margin-bottom: 0;
+    margin: 15px 0px;
 }
 
 hr {
@@ -101,13 +129,14 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;;
+    font-size: 30px;
+    ;
     transition-duration: 0.4s;
     cursor: pointer;
     border: solid;
 }
 
-.go-top-page-btn{
+.go-top-page-btn {
     margin: 10px 15px;
     background-color: rgb(29, 29, 71);
     color: whitesmoke;
