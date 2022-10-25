@@ -9,7 +9,7 @@ body {
 }
 
 .ball {
-    background-color:#0091ea;
+    background-color: #0091ea;
     height: 110px;
     width: 110px;
     padding: 30px;
@@ -25,7 +25,7 @@ body {
     /* box-shadow: inset 0 0 10px #f8a100; */
 }
 
-.ball:hover{
+.ball:hover {
     background-color: whitesmoke;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 button {
-    background-color: #64c1ff;
+    background-color: #63a4ff;
     padding: 10px 20px;
     margin: 4px;
     text-align: center;
@@ -43,14 +43,26 @@ button {
     font-size: 20px;
     transition-duration: 0.4s;
     cursor: pointer;
-    border: #64c1ff solid;
+    border: #63a4ff solid;
 }
 
 button:hover {
     background-color: whitesmoke;
-    color: #64c1ff;
+    color: #63a4ff;
 }
 
-.title-h3{
+.title-h3 {
     padding-top: 5px;
+}
+
+.navbar {
+    background-color: #004ba0;
+}
+
+.navbar-li:hover:not(.active) {
+    background-color: #63a4ff;
+}
+
+.active{
+    background-color: #63a4ff;
 }
