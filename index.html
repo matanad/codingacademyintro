@@ -3,29 +3,31 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Site</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
-    <ul class="navbar">
-        <li class="navbar-li active"><a class="navbar-a" href="index.html">Home</a></li>
-        <li class="navbar-li"><a class="navbar-a" href="exercise.html">Exercise</a></li>
-        <li class="navbar-li"><a class="navbar-a" href=#contact>Contact</a></li>
-        <li class="navbar-li"><a class="navbar-a" href=#about>About</a></li>
-    </ul>
-    <div class="header-container" id="header">
+    <nav>
+        <ul class="main-nav">
+            <li class="navbar-li active"><a class="navbar-a" href="index.html">Home</a></li>
+            <li class="navbar-li"><a class="navbar-a" href="exercise.html">Exercise</a></li>
+            <li class="navbar-li"><a class="navbar-a" href="game.html">Memory Game</a></li>
+            <li class="navbar-li push"><a class="navbar-a" href=#about>About</a></li>
+        </ul>
+    </nav>
+    <header class="grid-wrapper header" id="header">
         <h3 class="title-h3 animate__animated animate__slideInDown"><i>Hello, I am</i></h3>
         <div class="h1-border">
             <h1 class="animate__animated animate__jackInTheBox">Matan Adi</h1>
         </div>
         <div class="image-gallery">
-            <img src="img/profile.jpg" alt="Matan Adi">
-            <img src="img/profile2.jpg" alt="Matan Adi">
+            <img class="profile-img" src="img/profile.jpg" alt="Matan Adi">
+            <img class="profile-img" src="img/profile2.jpg" alt="Matan Adi">
         </div>
-    </div>
+    </header>
 
-    <div class="content-container">
+    <div class="content grid-wrapper">
         <h3>About Me</h3>
         <hr>
         <div id="about" class="personal-background">

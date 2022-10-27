@@ -44,6 +44,7 @@ var names = ["Shuki", "Muki", "Puki", "Kuki", "Shituki"]
 function arrayOfStrings(arr) {
     console.log("arr.lenght: ", arr.length);
     console.log("arr[1]: ", arr[1]);
+    console.log("last index value", arr[arr.length - 1]);
 
     console.log("for loop:");
     for (let i = 0; i < arr.length; i++) {
@@ -55,8 +56,8 @@ function arrayOfStrings(arr) {
 }
 
 var numbers = [30, 6, 22, 8, 13, 90]
-printArray(numbers)
-console.log("Sum: " + getSum(numbers))
+// printArray(numbers)
+// console.log("Sum: " + getSum(numbers))
 
 /**
  * 
@@ -86,3 +87,4 @@ function getSum(nums) {
     }
     return sum
 }
+

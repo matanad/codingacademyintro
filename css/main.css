@@ -1,28 +1,53 @@
-html body {
-    width: 100%;
-    height: 100%;
+body {
     background-color: whitesmoke;
-    margin: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
-.navbar {
-    list-style-type: none;
+.header {
+    color: whitesmoke;
+    background-color: #1d1d47;
+    padding: 50px;
+    grid-gap: 20px;
+}
+
+.content {
+    padding: 15px;
+    margin-top: -20px;
+    background-color: whitesmoke;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
     background-color: #010150;
 }
 
-.navbar-li {
-    float: left;
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
 }
 
-.navbar-li .navbar-a {
-    display: block;
+.push {
+    margin-left: auto;
+}
+
+.navbar-li {
+    padding: 15px;
+}
+
+.navbar-a {
     color: whitesmoke;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -35,29 +60,34 @@ html body {
 }
 
 h3 {
-    margin: 15px 0px;
     color: #010150;
 }
 
-.header-container {
-    color: whitesmoke;
-    background-color: #1d1d47;
-    padding-bottom: 50px;
+.container {
+    height: 300vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: auto;
 }
 
 h1 {
     text-align: left;
-    padding: 20px;
+    padding: 30px;
     transition-duration: 0.4s;
     margin: 0px 0px;
     animation-delay: 1s;
-
 }
 
 .h1-border {
     border: solid whitesmoke;
-    padding: 0px;
-    margin: 0px 50px;
+    width: 95%;
+    align-self: center;
+    justify-self: center;
 }
 
 .h1-border:hover {
@@ -69,7 +99,7 @@ h1 {
     text-align: center;
 }
 
-img {
+.profile-img {
     height: 300px;
     margin: 50px;
     border: solid;
@@ -79,7 +109,7 @@ img {
     box-shadow: 0 2px 4px 0 whitesmoke, 0 3px 10px 0 gray;
 }
 
-img:hover {
+.profile-img:hover {
     height: 500px;
 }
 
@@ -92,10 +122,11 @@ img:hover {
 }
 
 .title-h3 {
+    font-size: 20px;
     margin-top: 0px;
     font-family: serif;
-    padding-left: 50px;
-    padding-top: 50px;
+    /* padding-left: 50px;
+    padding-top: 50px; */
     color: whitesmoke;
 }
 

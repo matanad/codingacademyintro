@@ -6,25 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/exercise.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/exercise.css" />
 </head>
 
 <body>
-    <ul class="navbar">
-        <li class="navbar-li"><a class="navbar-a" href="index.html">Home</a></li>
-        <li class="navbar-li active"><a class="navbar-a" href="exercise.html">Exercise</a></li>
-        <li class="navbar-li"><a class="navbar-a" href=#contact>Contact</a></li>
-        <li class="navbar-li"><a class="navbar-a" href=#about>About</a></li>
-    </ul>
-
-    <div class="header-container">
+    <nav>
+        <ul class="main-nav">
+            <li class="navbar-li"><a class="navbar-a" href="index.html">Home</a></li>
+            <li class="navbar-li active"><a class="navbar-a" href="exercise.html">Exercise</a></li>
+            <li class="navbar-li"><a class="navbar-a" href="game.html">Memory Game</a></li>
+            <li class="navbar-li push"><a class="navbar-a" href=#about>About</a></li>
+        </ul>
+    </nav>
+    <header class="grid-wrapper header">
         <h3 class="title-h3"><i>by:</i></h3>
         <div class="h1-border">
             <h1>Matan Adi</h1>
         </div>
-    </div>
-    <div class="content-container">
+    </header>
+    <div class="content grid-wrapper">
         <h2>Day 4</h2>
         <hr>
         <div class="ball">I am a ball</div>
@@ -46,9 +47,8 @@
             <input type="number" id="secondNum" class="second-num" min="0" value="0">
         </form>
         <button class="func-btn" onclick="printMult()">Print Mult</button>
-
-
     </div>
+    <!-- <button class="func-btn" onclick="printMult()">Print Mult</button> -->
 
     <!-- <script src="js/main.js"></script> -->
     <script src="js/day4.js"></script>

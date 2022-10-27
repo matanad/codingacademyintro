@@ -4,13 +4,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header-container {
+.header {
     background-color: #0064b7;
 }
 
-.h1-border {
+/* .h1-border {
     margin-bottom: 50px;
-}
+} */
 
 .h1-border:hover {
     background-color: #004ba0;
@@ -25,7 +25,7 @@ body {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    line-height: 100px;
+    line-height: 130px;
     border-radius: 50%;
     text-align: center;
     transition-duration: 0.2s;
@@ -50,6 +50,7 @@ body {
     padding: 8px 16px;
     margin: 10px 5px;
     font-size: 18px;
+    justify-self: start;
 }
 
 .func-btn:hover {
@@ -61,7 +62,7 @@ body {
     padding-top: 5px;
 }
 
-.navbar {
+.main-nav {
     background-color: #004ba0;
 }
 

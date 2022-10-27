@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My App</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/game.css" />
+</head>
+
+<body>
+  <nav>
+    <ul class="main-nav">
+      <li class="navbar-li"><a class="navbar-a" href="index.html">Home</a></li>
+      <li class="navbar-li"><a class="navbar-a" href="exercise.html">Exercise</a></li>
+      <li class="navbar-li active"><a class="navbar-a" href="game.html">Memory Game</a></li>
+      <li class="navbar-li push"><a class="navbar-a" href=#about>About</a></li>
+    </ul>
+  </nav>
+  <header class="grid-wrapper header">
+    <h1>Memory Monsters</h1>
+    <h3 class="user-name">Login</h3>
+    <img class="logo" src="img/layout/logo.png">
+  </header>
+  <div class="content grid-wrapper">
+    <p class="best-time timer">Best Time: 0</p>
+    <div class="board">
+      <div class="card red" data-card="1" onclick="cardClicked(this)">
+        <img src="img/cards/1.png">
+        <img class="back" src="img/cards/back.png">
+      </div>
+      <div class="card green" data-card="7" onclick="cardClicked(this)">
+        <img src="img/cards/7.png">
+        <img class="back" src="img/cards/back.png">
+      </div>
+      <div class="card red" data-card="1" onclick="cardClicked(this)">
+        <img src="img/cards/1.png">
+        <img class="back" src="img/cards/back.png">
+      </div>
+      <div class="card green" data-card="7" onclick="cardClicked(this)">
+        <img src="img/cards/7.png">
+        <img class="back" src="img/cards/back.png">
+      </div>
+      <div class="card blue" data-card="5" onclick="cardClicked(this)">
+        <img src="img/cards/5.png">
+        <img class="back" src="img/cards/back.png">
+      </div>
+      <div class="card blue" data-card="5" onclick="cardClicked(this)">
+        <img src="img/cards/5.png">
+        <img class="back" src="img/cards/back.png">
+      </div>
+    </div>
+
+
+
+    <p class="timer">
+      <span class="seconds timer">00</span>:<span class="tens timer">00</span>
+    </p>
+    <button class="reset-btn" >Play Again</button>
+  </div>
+
+  <script src="js/game.js"></script>
+</body>
+
+</html>
