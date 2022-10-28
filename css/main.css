@@ -47,7 +47,7 @@ body {
     color: whitesmoke;
     text-decoration: none;
     padding: 10px;
-    
+
 }
 
 .navbar-li:hover:not(.active) {
@@ -77,8 +77,8 @@ h3 {
 
 h1 {
     text-align: left;
-    padding-top: 0.5em;
-    padding-left: 0.5em;
+    padding: 1rem;
+    display: block;
     transition-duration: 0.4s;
     margin: 0px 0px;
     animation-delay: 1s;
@@ -126,7 +126,7 @@ h1 {
 
 .title-h3 {
     font-size: 20px;
-    
+
     font-family: serif;
     color: whitesmoke;
 }
@@ -185,3 +185,25 @@ button {
     background-color: whitesmoke;
     color: #1d1d47;
 }
+
+.thick-arrow-up {
+    width: 25px;
+    height: 25px;
+    border: 10px solid whitesmoke;
+    border-left: 0;
+    border-top: 0;
+    margin: 14px;
+    transform: rotate(225deg);
+    background-color: #010150;
+  }
+
+  .thick-arrow-up:hover {
+    width: 25px;
+    height: 25px;
+    border: 10px solid whitesmoke;
+    background-color: #010150;
+    border-left: 0;
+    border-top: 0;
+    margin: 14px;
+    transform: rotate(225deg);
+  }
