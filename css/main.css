@@ -7,8 +7,8 @@ body {
 .header {
     color: whitesmoke;
     background-color: #1d1d47;
-    padding: 50px;
-    grid-gap: 20px;
+    padding: 2rem;
+    grid-gap: 15px;
 }
 
 .content {
@@ -60,6 +60,7 @@ body {
 
 h3 {
     color: #010150;
+    margin: 0;
 }
 
 .container {
@@ -76,7 +77,8 @@ h3 {
 
 h1 {
     text-align: left;
-    padding: 30px;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
     transition-duration: 0.4s;
     margin: 0px 0px;
     animation-delay: 1s;
@@ -85,6 +87,7 @@ h1 {
 .h1-border {
     border: solid whitesmoke;
     width: 95%;
+    height: 5rem;
     align-self: center;
     justify-self: center;
 }
@@ -123,10 +126,8 @@ h1 {
 
 .title-h3 {
     font-size: 20px;
-    margin-top: 0px;
+    
     font-family: serif;
-    /* padding-left: 50px;
-    padding-top: 50px; */
     color: whitesmoke;
 }
 
