@@ -8,9 +8,9 @@ body {
     background-color: #0064b7;
 }
 
-/* .h1-border {
+.h1-border {
     margin-bottom: 50px;
-} */
+} 
 
 .h1-border:hover {
     background-color: #004ba0;

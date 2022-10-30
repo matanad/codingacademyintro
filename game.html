@@ -7,6 +7,7 @@
   <title>My App</title>
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/game.css" />
+  <link rel="stylesheet" href="css/buttons/buublybutton/button.css" />
 </head>
 
 <body>
@@ -26,28 +27,52 @@
   <div class="content grid-wrapper box-background">
     <p class="best-time timer">Best Time: 0</p>
     <div class="board">
-      <div class="card red" data-card="1" onclick="cardClicked(this)">
-        <img src="img/cards/1.png">
+      <div class="card blue" data-card="1" onclick="cardClicked(this)">
+        <img class="front" src="img/cards/1.png">
         <img class="back" src="img/cards/back.png">
       </div>
-      <div class="card green" data-card="7" onclick="cardClicked(this)">
-        <img src="img/cards/7.png">
+      <div class="card blue" data-card="1" onclick="cardClicked(this)">
+        <img class="front" src="img/cards/1.png">
         <img class="back" src="img/cards/back.png">
       </div>
-      <div class="card red" data-card="1" onclick="cardClicked(this)">
-        <img src="img/cards/1.png">
+      <div class="card blue" data-card="2" onclick="cardClicked(this)">
+        <img class="front" src="img/cards/2.png">
         <img class="back" src="img/cards/back.png">
       </div>
-      <div class="card green" data-card="7" onclick="cardClicked(this)">
-        <img src="img/cards/7.png">
+      <div class="card blue" data-card="2" onclick="cardClicked(this)">
+        <img class="front" src="img/cards/2.png">
+        <img class="back" src="img/cards/back.png">
+      </div>
+      <div class="card blue" data-card="3" onclick="cardClicked(this)">
+        <img class="front" src="img/cards/3.png">
+        <img class="back" src="img/cards/back.png">
+      </div>
+      <div class="card blue" data-card="3" onclick="cardClicked(this)">
+        <img class="front" src="img/cards/3.png">
+        <img class="back" src="img/cards/back.png">
+      </div>
+      <div class="card blue" data-card="4" onclick="cardClicked(this)">
+        <img class="front" src="img/cards/4.png">
+        <img class="back" src="img/cards/back.png">
+      </div>
+      <div class="card blue" data-card="4" onclick="cardClicked(this)">
+        <img class="front" src="img/cards/4.png">
         <img class="back" src="img/cards/back.png">
       </div>
       <div class="card blue" data-card="5" onclick="cardClicked(this)">
-        <img src="img/cards/5.png">
+        <img class="front" src="img/cards/5.png">
         <img class="back" src="img/cards/back.png">
       </div>
       <div class="card blue" data-card="5" onclick="cardClicked(this)">
-        <img src="img/cards/5.png">
+        <img class="front" src="img/cards/5.png">
+        <img class="back" src="img/cards/back.png">
+      </div>
+      <div class="card blue" data-card="6" onclick="cardClicked(this)">
+        <img class="front" src="img/cards/6.png">
+        <img class="back" src="img/cards/back.png">
+      </div>
+      <div class="card blue" data-card="6" onclick="cardClicked(this)">
+        <img class="front" src="img/cards/6.png">
         <img class="back" src="img/cards/back.png">
       </div>
     </div>
@@ -57,10 +82,11 @@
     <p class="timer">
       <span class="seconds timer">00</span>:<span class="tens timer">00</span>
     </p>
-    <button class="reset-btn" >Play Again</button>
+    <button class="reset-btn">Play Again</button>
   </div>
 
   <script src="js/game.js"></script>
+  <script src="css/buttons/buublybutton/button.js"></script>
 </body>
 
 </html>

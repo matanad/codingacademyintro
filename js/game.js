@@ -13,7 +13,7 @@ var elSeconds = document.querySelector(".seconds")
 var Interval
 
 // This is a constant that we dont change during the game (we mark those with CAPITAL letters)
-const TOTAL_COUPLES_COUNT = 3;
+const TOTAL_COUPLES_COUNT = 6;
 
 // Load an audio file
 var audioWin = new Audio('sound/win.mp3');
